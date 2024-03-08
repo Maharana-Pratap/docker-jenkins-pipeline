@@ -15,7 +15,7 @@ public class DemoJenkinsDockerApplication {
 
     @GetMapping("/test")
     public String sowMsg() {
-        return "I am from jenkins docker project";
+        return "I am from jenkins docker pipeline project";
     }
 
 }
